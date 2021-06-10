@@ -1,0 +1,32 @@
+.mypara{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(212, 35, 35);
+}
+.mypara:hover{
+    background-color:yellow;
+}
+.table{
+    width: 100%;
+    border: yellow;
+    
+}
+.headerow{
+    background-color: green;
+}
+.headerow:hover{
+    background-color: indianred;
+}
+.rows:nth-child(odd){
+    background-color: indigo;
+}
+.rows:nth-child(even){
+    background-color: violet;
+}
+.rows:nth-child(even):hover{
+    background-color: lightblue;
+}
+.rows:nth-child(odd):hover{
+    background-color: yellows;
+}
